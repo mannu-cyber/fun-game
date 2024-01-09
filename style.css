@@ -1,64 +1,63 @@
-
 @font-face {
-    font-family:l ;
-    src: url(./Magic\ Retro.ttf);
+  font-family: l;
+  src: url(./Magic\ Retro.ttf);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-html,body{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 
-
-.main{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #85FFBD;
-background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
 }
 
-.title{
-    font-family: l;
-    font-weight: 500;
-    text-transform: capitalize;
-    text-align: center;
+.title {
+  font-family: l;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
 
-    color: rgb(90, 156, 231);
+  color: rgb(90, 156, 231);
 }
 
-img{
-    display: block;
-    margin: 5px auto;
-    height: 300px;
+img {
+  display: block;
+  margin: 5px auto;
+  height: 300px;
 }
 
-
-.btn-container{
+/* .btn-container{
     display: flex;
     justify-content: space-evenly;
+} */
+
+button {
+  padding: 8px 0;
+  font-size: 16px;
+  font-family: l;
+  width: 70px;
+}
+#noBtn {
+  position: absolute;
 }
 
-button{
-padding: 8px 0;
-    font-size: 16px;
-    font-family: l;
-    width: 70px;
-}
-
-.card{
-    width: 500px;
-    height: 500px;
-    /* background-color: red; */
+.card {
+  width: 500px;
+  height: 500px;
+  /* background-color: red; */
 }
