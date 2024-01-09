@@ -45,14 +45,9 @@ img{
 }
 
 
-#noBtn{
-position: absolute;
-right: 36%;
-
-
-
-
-    
+.btn-container{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 button{
